@@ -8,6 +8,7 @@ import telegram
 from django.utils.module_loading import module_has_submodule
 from telegram.ext import Dispatcher
 from telegram.ext import Updater
+from telegram.ext import Defaults
 from telegram.error import InvalidToken, TelegramError
 from telegram.utils.request import Request
 from telegram.ext import messagequeue as mq
